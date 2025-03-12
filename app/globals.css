@@ -27,6 +27,9 @@
     justify-content: center;
     align-items: center;
   }
+  .fill-current {
+    fill: var(--foreground);
+  }
 }
 
 body {
