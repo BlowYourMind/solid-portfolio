@@ -2,7 +2,7 @@ import ThemeToggle from "./ToggleButton";
 
 export default function Header({ theme }: { theme: string }) {
   return (
-    <header className="bg-background-30 shadow-xs fixed inset-x-0 top-4 z-40 mx-auto flex h-[60px] max-w-5xl items-center justify-between rounded-2xl px-8 saturate-100 backdrop-blur-[10px] transition-colors">
+    <header className="bg-background/30 shadow-xs fixed inset-x-0 top-4 z-40 mx-auto flex h-[60px] max-w-5xl items-center justify-between rounded-2xl px-8 saturate-100 backdrop-blur-[10px] transition-colors">
       <div className="flex items-center">
         <svg
           className="fill-current relative top-1"
@@ -26,7 +26,7 @@ export default function Header({ theme }: { theme: string }) {
           </g>
         </svg>
       </div>
-      <ThemeToggle initialTheme={theme} />
+      <ThemeToggle />
     </header>
   );
 }
