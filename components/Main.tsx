@@ -4,14 +4,12 @@ import Header from "./Header";
 import Image from "next/image";
 import upperBG from "../public/gradient-background-top.webp";
 import lowerBG from "../public/gradient-background-bottom.webp";
-export default async function Main({
+export default function Main({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  const cookieStore = await cookies();
-  const theme = cookieStore.get("theme")?.value || "dark";
   return (
     <>
-      <Header theme={theme} />
+      <Header />
       <Image
         className="absolute left-1/2 top-0 -z-10 -translate-x-1/2"
         src={upperBG}

@@ -1,6 +1,16 @@
 {
   "HomePage": {
     "home_button": "Redirect to home page button",
-    "about": "Go to the about page"
+    "about": "Go to the about page",
+    "layout": {
+      "about": "About",
+      "blog": "Blog",
+      "guestbook": "Guestbook",
+      "home": "Home",
+      "projects": "Projects",
+      "toggle-menu": "Toggle menu",
+      "contact": "Contact",
+      "reviews": "Reviews"
+    }
   }
 }
