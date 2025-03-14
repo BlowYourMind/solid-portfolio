@@ -1,10 +1,8 @@
 import { HeaderLinks } from "@/interfaces/links";
 import {
-  BarChartIcon,
   FlameIcon,
   MessageCircleIcon,
   MonitorIcon,
-  PencilIcon,
   UserCircleIcon,
 } from "lucide-react";
 
