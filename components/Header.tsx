@@ -1,14 +1,31 @@
 "use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
+import { motion } from "motion/react";
+
 import { Logo } from "./Logo";
 import ThemeToggle from "./ToggleButton";
-import { useTranslations } from "next-intl";
 import Navbar from "./Navbar";
-import { motion } from "motion/react";
 
 export default function Header() {
   const t = useTranslations("HomePage");
+  const [isScrolled, setIsScrolled] = useState<boolean>(false);
 
+  useEffect(() => {
+    const changeBackground = () => {
+      if (window.scrollY > 100) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    document.addEventListener("scroll", changeBackground);
+
+    return () => document.removeEventListener("scroll", changeBackground);
+  }, []);
   return (
     <motion.header
       className="bg-background/30 shadow-xs fixed inset-x-0 top-4 z-40 mx-auto flex h-[60px] max-w-5xl items-center justify-between rounded-2xl px-8 saturate-100 backdrop-blur-[10px] transition-colors"
