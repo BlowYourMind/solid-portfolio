@@ -8,6 +8,7 @@ import { motion } from "motion/react";
 import { Logo } from "./Logo";
 import ThemeToggle from "./ToggleButton";
 import Navbar from "./Navbar";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header() {
   const t = useTranslations("HomePage");
@@ -53,7 +54,10 @@ export default function Header() {
         </Link>
       </div>
       <Navbar />
-      <ThemeToggle />
+      <div className="flex items-center gap-2">
+        <ThemeToggle />
+        <LanguageSwitcher />
+      </div>
     </motion.header>
   );
 }

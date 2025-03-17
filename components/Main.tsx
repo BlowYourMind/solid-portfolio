@@ -1,4 +1,3 @@
-import { cookies } from "next/headers";
 import Footer from "./Footer";
 import Header from "./Header";
 import Image from "next/image";
