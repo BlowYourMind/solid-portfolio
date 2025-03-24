@@ -1,5 +1,13 @@
 {
   "HomePage": {
+    "title-top": "Hello, I'm Maksim, a Frontend Developer",
+    "location-timezone": "Riga (Latvia) UTC/GMT+2",
+    "fantastic": "fantastic",
+    "amazing": "amazing",
+    "stunning": "stunning",
+    "attractive": "attractive",
+    "title-middle": "building amazing websites using",
+    "title-bottom": "modern frameworks like:",
     "home_button": "Redirect to home page button",
     "about": "Go to the about page",
     "layout": {

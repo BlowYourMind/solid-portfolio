@@ -16,7 +16,7 @@ export default function Main({
         width={1512}
         height={550}
       ></Image>
-      {children}
+      <div className="pt-24">{children}</div>
       <Footer />
       <Image
         className="absolute -bottom-6 left-1/2 -z-10 -translate-x-1/2"

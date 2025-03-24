@@ -8,9 +8,9 @@ import {
 
 export const HEADER_LINKS: HeaderLinks = [
   {
-    icon: <MessageCircleIcon className="size-3.5" />,
-    href: "/reviews",
-    key: "reviews",
+    icon: <UserCircleIcon className="size-3.5" />,
+    href: "/about",
+    key: "about",
   },
   {
     icon: <FlameIcon className="size-3.5" />,
@@ -18,9 +18,9 @@ export const HEADER_LINKS: HeaderLinks = [
     key: "projects",
   },
   {
-    icon: <UserCircleIcon className="size-3.5" />,
-    href: "/about",
-    key: "about",
+    icon: <MessageCircleIcon className="size-3.5" />,
+    href: "/reviews",
+    key: "reviews",
   },
   {
     icon: <MonitorIcon className="size-3.5" />,

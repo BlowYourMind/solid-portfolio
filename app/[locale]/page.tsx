@@ -1,5 +1,9 @@
+import MainPageBanner from "@/components/MainPageBanner";
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center">Main page content</div>
+    <div>
+      <MainPageBanner />
+    </div>
   );
 }
