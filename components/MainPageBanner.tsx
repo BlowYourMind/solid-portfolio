@@ -6,7 +6,7 @@ const MainPageBanner = () => {
   return (
     <div className="max-w-5xl mx-auto flex items-center justify-between my-10">
       <MainPageBannerAnimatedText />
-      <div className="bg-background relative p-3 rounded-full flex-center">
+      <div className="bg-background/80 relative p-3 rounded-full flex-center">
         <motion.div
           className="relative hidden size-18 md:flex "
           initial={{
