@@ -4,15 +4,20 @@ import Header from "./Header";
 import Image from "next/image";
 import upperBG from "../public/gradient-background-top.webp";
 import lowerBG from "../public/gradient-background-bottom.webp";
+import { useAnimations } from "./AnimationsToggle";
 
 export default function Main({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const { animationsEnabled } = useAnimations();
+  
   return (
     <>
       <Header />
       <Image
-        className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 animate-pulse-opacity"
+        className={`absolute left-1/2 top-0 -z-10 -translate-x-1/2 ${
+          animationsEnabled ? "animate-pulse-opacity" : ""
+        }`}
         src={upperBG}
         alt="upper_background"
         width={1512}
@@ -21,7 +26,9 @@ export default function Main({
       <div className="pt-24">{children}</div>
       <Footer />
       <Image
-        className="absolute -bottom-6 left-1/2 -z-10 -translate-x-1/2 animate-pulse-opacity"
+        className={`absolute -bottom-6 left-1/2 -z-10 -translate-x-1/2 ${
+          animationsEnabled ? "animate-pulse-opacity" : ""
+        }`}
         src={lowerBG}
         alt="lower_background"
         width={1512}

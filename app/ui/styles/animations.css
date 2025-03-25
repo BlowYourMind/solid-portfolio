@@ -282,3 +282,7 @@
     opacity: 1;
   }
 }
+html.no-animations * {
+  animation: none !important;
+  transition: none !important;
+}

@@ -1,5 +1,6 @@
 "use client";
 
+import { AnimationsProvider } from "@/components/AnimationsToggle";
 import { ThemeProvider } from "next-themes";
 
 type ProvidesProps = {
@@ -17,7 +18,7 @@ const Providers = (props: ProvidesProps) => {
       enableColorScheme
       disableTransitionOnChange
     >
-      {children}
+      <AnimationsProvider>{children}</AnimationsProvider>
     </ThemeProvider>
   );
 };

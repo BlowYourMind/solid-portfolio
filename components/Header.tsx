@@ -9,6 +9,7 @@ import { Logo } from "./Logo";
 import ThemeToggle from "./ToggleButton";
 import Navbar from "./Navbar";
 import LanguageSwitcher from "./LanguageSwitcher";
+import AnimationsToggle from "./AnimationsToggle";
 
 export default function Header() {
   const t = useTranslations("HomePage");
@@ -55,6 +56,7 @@ export default function Header() {
       </div>
       <Navbar />
       <div className="flex items-center gap-2">
+        <AnimationsToggle />
         <ThemeToggle />
         <LanguageSwitcher />
       </div>
