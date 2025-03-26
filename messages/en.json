@@ -20,5 +20,14 @@
       "contact": "Contact",
       "reviews": "Reviews"
     }
+  },
+  "ProjectCard": {
+    "ecomerce": "E-commerce",
+    "ecomerce_description": "Secure online shopping platform with integrated payments and inventory management.",
+    "i_gambling_description": "Online casino platform development with secure payment systems, game integration, and regulatory compliance.",
+    "i_gambling": "iGambling",
+    "backend_related": "Backend related",
+    "backend_related_description": "Telegram notification systems and crypto arbitrage solutions built with NestJS architecture.",
+    "read_more": "Read more"
   }
 }

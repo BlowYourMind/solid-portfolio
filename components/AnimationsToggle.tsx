@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { MoonIcon, SunIcon, ZapIcon, ZapOffIcon } from "lucide-react";
+import { ZapIcon, ZapOffIcon } from "lucide-react";
 import { Button } from "./ui/button";
 
 import { createContext, useContext } from "react";
