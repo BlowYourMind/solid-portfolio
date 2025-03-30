@@ -1,3 +1,4 @@
+import { IconType } from "@icons-pack/react-simple-icons";
 import { ReactNode } from "react";
 
 export interface HeaderLink {
@@ -8,3 +9,16 @@ export interface HeaderLink {
 
 export type HeaderLinks = Array<HeaderLink>;
 
+export interface SocialLink {
+  href: string;
+  title: string;
+  icon: IconType;
+}
+export type SocialLinks = Array<SocialLink>;
+
+export interface TechStackLink {
+  name: string;
+  icon: IconType;
+}
+
+export type TechStackLinks = Array<TechStackLink>;

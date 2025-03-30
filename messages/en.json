@@ -10,6 +10,10 @@
     "title-bottom": "modern frameworks like:",
     "home_button": "Redirect to home page button",
     "about": "Go to the about page",
+    "about-me": {
+      "connect": "Connect",
+      "tech_stack": "Stacks I am using"
+    },
     "layout": {
       "about": "About",
       "blog": "Blog",
