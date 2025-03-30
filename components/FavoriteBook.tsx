@@ -14,7 +14,7 @@ const FavoriteBook = () => {
       {FAVORITE_BOOKS.map((book) => (
         <div key={book.name} className="flex items-start gap-3">
           <Image
-            className="rounded-lg"
+            className="rounded-sm"
             src={book.img}
             alt="favorite_book"
             width={40}

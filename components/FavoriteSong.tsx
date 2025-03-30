@@ -20,7 +20,7 @@ const FavoriteSong = () => {
       {FAVORITE_SONGS.map((song) => (
         <div key={song.name} className="flex items-start gap-3">
           <Image
-            className="rounded-lg"
+            className="rounded-sm"
             src={song.img}
             alt="favorite_song"
             width={60}
