@@ -12,7 +12,9 @@
     "about": "Go to the about page",
     "about-me": {
       "connect": "Connect",
-      "tech_stack": "Stacks I am using"
+      "tech_stack": "Stacks I am using",
+      "favorite_songs": "Favorite songs",
+      "favorite_books": "Favorite books"
     },
     "layout": {
       "about": "About",
