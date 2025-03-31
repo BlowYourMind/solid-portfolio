@@ -1,8 +1,10 @@
+"use client";
 import { LucideMusic } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { FAVORITE_SONGS } from "@/config/links";
+import { motion } from "motion/react";
 interface FavoriteSong {
   url: string;
   name: string;
@@ -12,7 +14,18 @@ interface FavoriteSong {
 const FavoriteSong = () => {
   const t = useTranslations("HomePage");
   return (
-    <div className="shadow-feature-card flex flex-col gap-6 rounded-xl p-4 w-full lg:p-6">
+    <motion.div
+      initial={{
+        scale: 0,
+      }}
+      animate={{
+        scale: 1,
+      }}
+      transition={{
+        duration: 0.3,
+      }}
+      className="shadow-feature-card flex flex-col gap-6 rounded-xl p-4 w-full lg:p-6"
+    >
       <div className="flex items-center gap-2">
         <LucideMusic className="size-[18px]" />
         <h2 className="text-sm">{t("about-me.favorite_songs")}</h2>
@@ -38,7 +51,7 @@ const FavoriteSong = () => {
           </div>
         </div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 export default FavoriteSong;

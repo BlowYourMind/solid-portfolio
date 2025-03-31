@@ -2,12 +2,24 @@
 import { TECH_ICONS } from "@/config/links";
 import { TechStackLink } from "@/interfaces/links";
 import { ZapIcon } from "lucide-react";
+import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 
 const StackBlock = () => {
   const t = useTranslations("HomePage");
   return (
-    <div className="shadow-feature-card flex flex-col gap-6 rounded-xl p-4 lg:p-6">
+    <motion.div
+      initial={{
+        scale: 0,
+      }}
+      animate={{
+        scale: 1,
+      }}
+      transition={{
+        duration: 0.3,
+      }}
+      className="shadow-feature-card flex flex-col gap-6 rounded-xl p-4 lg:p-6"
+    >
       <div className="flex items-center gap-2">
         <ZapIcon className="size-[18px]" />
         <h2 className="text-sm">{t("about-me.tech_stack")}</h2>
@@ -26,7 +38,7 @@ const StackBlock = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

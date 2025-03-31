@@ -1,4 +1,4 @@
-"use client";
+import { useTranslations } from "next-intl";
 import ProjectCard from "./ProjectCard";
 import { motion } from "motion/react";
 
@@ -7,6 +7,7 @@ interface ProjectData {
   links: string[];
 }
 const MainPageProjects = () => {
+  const t = useTranslations("HomePage");
   const PROJECTS: ProjectData[] = [
     {
       name: "ecomerce",
@@ -23,7 +24,14 @@ const MainPageProjects = () => {
   ];
   return (
     <div className="max-w-5xl w-full mx-auto flex flex-col gap-4">
-      <h2 className="text-3xl font-bold text-center">Projects</h2>
+      <motion.div
+        initial={{ x: 20, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ ease: "easeOut" }}
+        className="text-3xl font-bold text-center"
+      >
+        {t("layout.projects")}
+      </motion.div>
       <motion.div
         initial={{
           opacity: 0,

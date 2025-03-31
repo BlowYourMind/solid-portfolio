@@ -1,12 +1,24 @@
+"use client";
 import { LucideBook } from "lucide-react";
 import { useTranslations } from "next-intl";
-import favBookLogo from "@/public/dune-img.jpg";
 import Image from "next/image";
 import { FAVORITE_BOOKS } from "@/config/links";
+import { motion } from "motion/react";
 const FavoriteBook = () => {
   const t = useTranslations("HomePage");
   return (
-    <div className="shadow-feature-card flex flex-col gap-6 rounded-xl p-4 w-full lg:p-6">
+    <motion.div
+      initial={{
+        scale: 0,
+      }}
+      animate={{
+        scale: 1,
+      }}
+      transition={{
+        duration: 0.3,
+      }}
+      className="shadow-feature-card flex flex-col gap-6 rounded-xl p-4 w-full lg:p-6"
+    >
       <div className="flex items-center gap-2">
         <LucideBook className="size-[18px]" />
         <h2 className="text-sm">{t("about-me.favorite_books")}</h2>
@@ -26,7 +38,7 @@ const FavoriteBook = () => {
           </div>
         </div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 export default FavoriteBook;
