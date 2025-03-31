@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimationsProvider } from "@/components/AnimationsToggle";
+import { TRPCReactProvider } from "@/trpc/react";
 import { ThemeProvider } from "next-themes";
 
 type ProvidesProps = {
@@ -11,15 +12,17 @@ const Providers = (props: ProvidesProps) => {
   const { children } = props;
 
   return (
-    <ThemeProvider
-      attribute="class"
-      defaultTheme="system"
-      enableSystem
-      enableColorScheme
-      disableTransitionOnChange
-    >
-      <AnimationsProvider>{children}</AnimationsProvider>
-    </ThemeProvider>
+    <TRPCReactProvider>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        enableColorScheme
+        disableTransitionOnChange
+      >
+        <AnimationsProvider>{children}</AnimationsProvider>
+      </ThemeProvider>
+    </TRPCReactProvider>
   );
 };
 

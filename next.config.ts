@@ -4,6 +4,9 @@ const nextConfig: NextConfig = {
   plugins: {
     "@tailwindcss/postcss": {},
   },
+  images: {
+    domains: ["i.scdn.co"],
+  },
 };
 
 const withNextIntl = createNextIntlPlugin();

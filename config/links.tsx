@@ -66,11 +66,11 @@ export const HEADER_LINKS: HeaderLinks = [
     href: "/projects",
     key: "projects",
   },
-  {
-    icon: <MessageCircleIcon className="size-3.5" />,
-    href: "/reviews",
-    key: "reviews",
-  },
+  // {
+  //   icon: <MessageCircleIcon className="size-3.5" />,
+  //   href: "/reviews",
+  //   key: "reviews",
+  // },
   {
     icon: <MonitorIcon className="size-3.5" />,
     href: "/contact",
@@ -167,3 +167,23 @@ export const FAVORITE_BOOKS: FavoriteBooks = [
     img: favBookLogo3,
   },
 ];
+
+export const FOOTER_LINKS = [
+  {
+    id: 1,
+    links: [
+      { href: "/", key: "home" },
+      { href: "/about", key: "about" },
+      { href: "/projects", key: "projects" },
+    ],
+  },
+  {
+    id: 2,
+    links: [
+      { href: SITE_TELEGRAM_URL, key: "telegram" },
+      { href: SITE_INSTAGRAM_URL, key: "instagram" },
+      { href: SITE_GITHUB_URL, key: "github" },
+      { href: SITE_LINKEDIN_URL, key: "linkedin" },
+    ],
+  },
+] as const;

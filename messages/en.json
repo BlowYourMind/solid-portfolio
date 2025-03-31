@@ -24,7 +24,17 @@
       "projects": "Projects",
       "toggle-menu": "Toggle menu",
       "contact": "Contact",
-      "reviews": "Reviews"
+      "reviews": "Reviews",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "github": "github",
+      "linkedin": "Linkedin",
+      "now-playing": {
+        "loading": "Loading",
+        "error": "Something went wrong",
+        "not-listening": "Not listening any music at the moment",
+        "currently_playing": "Currently listening to:"
+      }
     }
   },
   "ProjectCard": {
