@@ -19,12 +19,9 @@ const MainPageBanner = () => {
             duration: 0.3,
           }}
         >
-          <Logo
-            width={80}
-            height={80}
-            className={"fill-current"}
-          />
-          <div className="animate-pulse-opacity bg-linear-to-tl absolute inset-0 -z-10 from-purple-700 to-orange-700 opacity-50 blur-2xl"></div>
+          <Logo width={80} height={80} className={"fill-current"} />
+          <div className="dark:block hidden animate-pulse-opacity bg-linear-to-tl absolute inset-0 -z-10 from-purple-700 to-orange-700 blur-2xl"></div>
+          <div className="dark:hidden animate-pulse-opacity bg-linear-to-tl absolute inset-0 -z-10 from-white to-yellow-700 blur-2xl"></div>
         </motion.div>
       </div>
     </div>
