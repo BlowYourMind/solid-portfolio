@@ -17,13 +17,13 @@ const NowPlaying = () => {
     status === "success" && (!data.isPlaying || !data.songUrl);
 
   return (
-    <div className="flex items-start flex-col gap-4">
+    <div className="flex items-start flex-col gap-4 col-span-2 sm:col-span-1 justify-start">
       <div className="flex gap-2 items-center text-muted-foreground">
         <span>{t("layout.now-playing.currently_playing")}</span>
         <SiSpotify size={20}></SiSpotify>
       </div>
 
-      <div className="inline-flex w-full items-center justify-center gap-2 text-sm md:justify-start">
+      <div className="inline-flex w-full items-center justify-start gap-2 text-sm">
         {isPlaying && data.albumImage && (
           <Image
             src={data.albumImage}

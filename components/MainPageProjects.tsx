@@ -42,7 +42,7 @@ const MainPageProjects = () => {
         transition={{
           duration: 0.6,
         }}
-        className="grid grid-cols-3 gap-10 mt-6"
+        className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-6"
       >
         {PROJECTS.map((projectData: ProjectData, index: number) => (
           <ProjectCard projectDetails={projectData} key={index} />

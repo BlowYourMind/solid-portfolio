@@ -10,7 +10,7 @@ const BackgroundImagesWrapper = ({
   const { animationsEnabled } = useAnimations();
 
   return (
-    <div className="pt-24">
+    <div className="pt-24 px-2 md:px-6">
       <Image
         className={`absolute dark:hidden left-1/2 top-0 -z-10 -translate-x-1/2 ${
           animationsEnabled ? "animate-pulse-opacity" : ""

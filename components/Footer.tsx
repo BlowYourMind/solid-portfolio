@@ -30,7 +30,7 @@ export default function Footer() {
         ))}
         <NowPlaying />
       </div>
-      <span className="text-muted-foreground text-center">
+      <span className="text-muted-foreground text-center mt-8">
         © 2025 Maksims Nikitins
       </span>
     </footer>

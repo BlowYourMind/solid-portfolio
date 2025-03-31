@@ -17,7 +17,7 @@ const FavoriteBook = () => {
       transition={{
         duration: 0.3,
       }}
-      className="shadow-feature-card flex flex-col gap-6 rounded-xl p-4 w-full lg:p-6"
+      className="shadow-feature-card flex col-span-1 sm:col-span-2 md:col-span-1 flex-col gap-6 rounded-xl p-4 w-full lg:p-6"
     >
       <div className="flex items-center gap-2">
         <LucideBook className="size-[18px]" />
