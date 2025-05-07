@@ -45,5 +45,9 @@
     "backend_related": "Backend related",
     "backend_related_description": "Telegram notification systems and crypto arbitrage solutions built with NestJS architecture.",
     "read_more": "Read more"
+  },
+  "About": {
+    "hero_title": "About me",
+    "hero_brief_desc": "Hey there! I'm a 22-year-old frontend developer with 3 years of experience in web development. I've also dipped my toes into backend work. I enjoy building clean, functional interfaces that look great and work even better. Always staying up-to-date with the latest UI/UX trends to create better user experiences. In my free time, I'm really into crypto :)"
   }
 }
