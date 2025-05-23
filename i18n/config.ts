@@ -8,6 +8,10 @@ export const supportedLanguages = [
     code: "ru",
     label: "Русский",
   },
+  {
+    code: "lv",
+    label: "Latviešu",
+  },
 ];
 
 export const i18n = {

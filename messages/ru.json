@@ -10,6 +10,12 @@
     "title-bottom": "modern frameworks like:",
     "home_button": "Redirect to home page button",
     "about": "Go to the about page",
+    "about-me": {
+      "connect": "Connect",
+      "tech_stack": "Stacks I am using",
+      "favorite_songs": "Favorite songs",
+      "favorite_books": "Favorite books"
+    },
     "layout": {
       "about": "About",
       "blog": "Blog",
@@ -18,7 +24,36 @@
       "projects": "Projects",
       "toggle-menu": "Toggle menu",
       "contact": "Contact",
-      "reviews": "Reviews"
+      "reviews": "Reviews",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "github": "github",
+      "linkedin": "Linkedin",
+      "now-playing": {
+        "loading": "Loading",
+        "error": "Something went wrong",
+        "not-listening": "Not listening any music at the moment",
+        "currently_playing": "Currently listening to:"
+      }
     }
+  },
+  "ProjectCard": {
+    "ecomerce": "E-commerce",
+    "ecomerce_description": "Secure online shopping platform with integrated payments and inventory management.",
+    "i_gambling_description": "Online casino platform development with secure payment systems, game integration, and regulatory compliance.",
+    "i_gambling": "iGambling",
+    "backend_related": "Backend related",
+    "backend_related_description": "Telegram notification systems and crypto arbitrage solutions built with NestJS architecture.",
+    "read_more": "Read more"
+  },
+  "About": {
+    "hero_title": "About me",
+    "hero_brief_desc": "Hey there! I'm a 22-year-old frontend developer with 3 years of experience in web development. I've also dipped my toes into backend work. I enjoy building clean, functional interfaces that look great and work even better. Always staying up-to-date with the latest UI/UX trends to create better user experiences. In my free time, I'm really into crypto :)",
+    "me_in_poland": "this is me in Poland btw :)",
+    "life_path": "My life path",
+    "life_path_desc_1": "I was born in Jelgava, Latvia, and spent my childhood full of energy and curiosity. I tried many sports including judo, football, volleyball, and track and field. But everything changed in the second grade when I discovered swimming. From that moment, I dedicated the next 12 years to the sport. I became a Master of Sports, a national junior champion, and represented Latvia in international competitions. Eventually, I achieved my goals and decided to step away from professional sports.  ",
+    "life_path_desc_2": "Alongside sports, I was always fascinated by gaming and technology. I played cooperative and multiplayer games with friends, with CS:GO being my favorite. That interest led me to my first experience with programming. I used to host Minecraft servers, install mods, and manage everything myself, without even realizing I was learning valuable skills.  ",
+    "life_path_desc_3": "During the COVID lockdown, I could no longer train in the pool. That was a difficult time, and I decided to focus on something new. I took a free Python course on Stepik, but couldn’t find freelance work in that field. So I explored frontend development. I loved seeing live progress and improving user experiences. After a few months of learning through tutorials, a friend offered me a freelance project. I worked on a single-page application written in plain JavaScript, and that experience helped me grow as a frontend developer.  ",
+    "life_path_desc_4": "Later, I joined SIA Softrocket as a frontend developer, working on large-scale projects in the iGaming industry. Each project generated over a million euros in monthly revenue. After some time, I sought a better work environment and transitioned to the e-commerce field. Today, I work as a lead frontend developer at BuySellVouchers.com, continuing to grow and build impactful products."
   }
 }
