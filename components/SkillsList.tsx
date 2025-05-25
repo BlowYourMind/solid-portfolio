@@ -1,6 +1,7 @@
+import { EcommerceSkill } from "@/interfaces/projects";
 import { useTranslations } from "next-intl";
 
-const SkillsList = ({ skill }: { skill: any }) => {
+const SkillsList = ({ skill }: { skill: EcommerceSkill }) => {
   const t = useTranslations("Ecommerce");
   return (
     <div className="card group">
@@ -14,7 +15,7 @@ const SkillsList = ({ skill }: { skill: any }) => {
               </h3>
             </div>
             <ul className="space-y-2">
-              {skill.items.map((item: any, index: number) => (
+              {skill.items.map((item: string, index: number) => (
                 <li
                   key={index}
                   className="text-card-foreground text-sm flex items-center"

@@ -38,8 +38,8 @@
     }
   },
   "ProjectCard": {
-    "ecomerce": "E-commerce",
-    "ecomerce_description": "Secure online shopping platform with integrated payments and inventory management.",
+    "ecommerce": "E-commerce",
+    "ecommerce_description": "Secure online shopping platform with integrated payments and inventory management.",
     "i_gambling_description": "Online casino platform development with secure payment systems, game integration, and regulatory compliance.",
     "i_gambling": "iGambling",
     "backend_related": "Backend related",
@@ -55,5 +55,39 @@
     "life_path_desc_2": "Alongside sports, I was always fascinated by gaming and technology. I played cooperative and multiplayer games with friends, with CS:GO being my favorite. That interest led me to my first experience with programming. I used to host Minecraft servers, install mods, and manage everything myself, without even realizing I was learning valuable skills.  ",
     "life_path_desc_3": "During the COVID lockdown, I could no longer train in the pool. That was a difficult time, and I decided to focus on something new. I took a free Python course on Stepik, but couldn’t find freelance work in that field. So I explored frontend development. I loved seeing live progress and improving user experiences. After a few months of learning through tutorials, a friend offered me a freelance project. I worked on a single-page application written in plain JavaScript, and that experience helped me grow as a frontend developer.  ",
     "life_path_desc_4": "Later, I joined SIA Softrocket as a frontend developer, working on large-scale projects in the iGaming industry. Each project generated over a million euros in monthly revenue. After some time, I sought a better work environment and transitioned to the e-commerce field. Today, I work as a lead frontend developer at BuySellVouchers.com, continuing to grow and build impactful products."
+  },
+  "Projects": {
+    "hero_title": "Projects I have been working on",
+    "hero_subtext": "Here is the list of projects I have been working on, showcasing my skills and expertise in various spheres and technologies. Each project reflects my dedication to quality and innovation."
+  },
+  "Ecommerce": {
+    "ecommerce_projects_title": "E-commerce Excellence",
+    "key_achivements": "Key Achievements",
+    "tehnical_expertise": "Technical Expertise",
+    "core_compents": "Core Competencies",
+    "proven_impact": "Proven E-commerce Impact",
+    "proven_impact_desc": "From building Shopify solutions that facilitate major municipal contracts to architecting modern Next.js applications that enhance performance and user experience, I deliver e-commerce solutions that drive real business results. My expertise spans the full development lifecycle, from strategic planning and team leadership to technical implementation and optimization.",
+    "palami_status": "Live & Serving Major Clients",
+    "palami_period": "2023 - 2024",
+    "palami_desc": "Developed a comprehensive Shopify e-commerce platform for a leading LED display and bus station manufacturer, resulting in major municipal contracts across Riga.",
+    "buysellvouchers_role": "Lead Frontend Developer",
+    "buysellvouchers_company": "Online Marketplace",
+    "buysellvouchers_period": "2024 - Present",
+    "buysellvouchers_status": "Pre-production & QA Testing",
+    "buysellvouchers_desc": "Leading frontend part migration from legacy Yii 1 framework to cutting-edge Next.js 15, while spearheading strategic technical decisions",
+    "palami_role": "Shopify Developer",
+    "palami_company": "LED Display Solutions",
+    "achievement_palami_1": "LED screens and bus stations now deployed city-wide across Riga",
+    "achievement_palami_2": "Implemented custom Liquid integrations for product configurations and features accross website",
+    "achievement_bsv_1": "Architecting migration strategy from Yii 1 to Next.js 15",
+    "achievement_bsv_3": "Significantly improved application performance and load times",
+    "achievement_bsv_4": "Enhanced SEO capabilities with server-side rendering implementation",
+    "achievement_bsv_5": "Redesigned UI/UX for improved user engagement and conversion rates",
+    "skill_ecommerce_platforms": "E-commerce Platforms",
+    "skill_frontend_technologies": "Frontend Technologies",
+    "skill_performance_seo": "Performance & SEO",
+    "skill_development_practices": "Development Practices",
+    "skill_integration_apis": "Integration & APIs",
+    "skill_tools_workflow": "Tools & Workflow"
   }
 }

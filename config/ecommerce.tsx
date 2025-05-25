@@ -1,13 +1,7 @@
-import {
-  Code,
-  Users,
-  TrendingUp,
-  Layers,
-  ShoppingCart,
-  Wrench,
-} from "lucide-react";
+import { EcommerceProjects, EcommerceSkills } from "@/interfaces/projects";
+import { Code, TrendingUp, ShoppingCart } from "lucide-react";
 
-export const ECOMMERCE_PROJECTS = [
+export const ECOMMERCE_PROJECTS: EcommerceProjects = [
   {
     name: "Palami.com",
     role: "palami_role",
@@ -47,7 +41,7 @@ export const ECOMMERCE_PROJECTS = [
   },
 ];
 
-export const ECOMMERCE_SKILLS = [
+export const ECOMMERCE_SKILLS: EcommerceSkills = [
   {
     category: "skill_frontend_technologies",
     items: [

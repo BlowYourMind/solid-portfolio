@@ -1,7 +1,8 @@
+import { EcommerceProject } from "@/interfaces/projects";
 import { ExternalLink, Zap } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-const ProductDescriptionCard = ({ project }: { project: any }) => {
+const ProductDescriptionCard = ({ project }: { project: EcommerceProject }) => {
   const t = useTranslations("Ecommerce");
 
   return (
@@ -51,7 +52,7 @@ const ProductDescriptionCard = ({ project }: { project: any }) => {
                   </h4>
                   <ul className="space-y-2">
                     {project.achievements.map(
-                      (achievement: any, index: number) => (
+                      (achievement: string, index: number) => (
                         <li
                           key={index}
                           className="text-card-foreground flex items-start"
@@ -65,7 +66,7 @@ const ProductDescriptionCard = ({ project }: { project: any }) => {
                 </div>
 
                 <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech: any, index: number) => (
+                  {project.technologies.map((tech: string, index: number) => (
                     <span
                       key={index}
                       className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm border border-border"
