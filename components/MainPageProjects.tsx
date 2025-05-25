@@ -4,22 +4,22 @@ import { motion } from "motion/react";
 
 interface ProjectData {
   name: string;
-  links: string[];
+  link: string;
 }
 const MainPageProjects = () => {
   const t = useTranslations("HomePage");
   const PROJECTS: ProjectData[] = [
     {
-      name: "ecomerce",
-      links: ["palami.casa", "buysellvouchers.com"],
+      name: "ecommerce",
+      link: "/projects/ecommerce",
     },
     {
       name: "i_gambling",
-      links: ["palami.casa", "buysellvouchers.com"],
+      link: "/projects/ecommerce",
     },
     {
       name: "backend_related",
-      links: ["palami.casa", "buysellvouchers.com"],
+      link: "/projects/ecommerce",
     },
   ];
   return (

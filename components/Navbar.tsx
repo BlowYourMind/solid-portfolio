@@ -15,8 +15,7 @@ const Navbar = () => {
     <nav className="hidden md:block">
       <ul className="flex gap-2">
         {HEADER_LINKS.map((link: HeaderLink) => {
-          const isActive = link.href === pathname;
-
+          const isActive = pathname.includes(link.href);
           return (
             <li
               key={link.key}
