@@ -11,8 +11,11 @@ const IgamingPage = () => {
       <div className="max-w-8xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-sans text-start font-bold text-foreground mb-4">
-            {t("projects_title")}
+            {t("hero_title")}
           </h1>
+          <p className="text-base text-start text-muted-foreground mb-8">
+            {t("hero_subtext")}
+          </p>
         </div>
         <div className="mb-16">
           <div className="grid md:grid-cols-1 gap-8">
