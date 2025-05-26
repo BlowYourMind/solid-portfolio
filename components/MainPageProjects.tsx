@@ -19,7 +19,7 @@ const MainPageProjects = () => {
     },
     {
       name: "backend_related",
-      link: "/projects/ecommerce",
+      link: "/projects/backend",
     },
   ];
   return (
