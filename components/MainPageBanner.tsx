@@ -4,7 +4,7 @@ import { Logo } from "./Logo";
 import MainPageBannerAnimatedText from "./MainPageBannerAnimatedText";
 const MainPageBanner = () => {
   return (
-    <div className="max-w-5xl mx-auto flex items-center justify-between my-10">
+    <div className="max-w-5xl mx-auto flex items-center justify-between my-10 px-2">
       <MainPageBannerAnimatedText />
       <div className="bg-background/80 relative p-3 rounded-full flex-center">
         <motion.div

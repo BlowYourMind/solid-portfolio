@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 const IgamingPage = () => {
   const t = useTranslations("Igaming");
   return (
-    <div className="min-h-screen text-foreground p-6 mt-20">
+    <div className="min-h-screen text-foreground p-2 md:p-6 mt-20">
       <div className="max-w-8xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-sans text-start font-bold text-foreground mb-4">

@@ -5,7 +5,7 @@ import FavoriteSong from "@/components/FavoriteSong";
 
 const AboutPage = () => {
   return (
-    <div className="max-w-5xl mx-auto flex items-center justify-between my-10">
+    <div className="max-w-5xl mx-auto flex items-center justify-between my-10 px-2">
       <div className="flex gap-6 flex-col">
         <AboutHeroSection />
         <div className="grid grid-cols-1 md:grid-cols-[250px_1fr] lg:grid-cols-[300px_1fr] gap-6">

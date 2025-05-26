@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 const MainPageAbout = () => {
   const t = useTranslations("HomePage");
   return (
-    <div className="mt-[10rem] max-w-5xl mx-auto flex flex-col gap-4">
+    <div className="mt-[4rem] md:mt-[10rem] max-w-5xl mx-auto flex flex-col gap-4">
       <motion.div
         initial={{ x: 20, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -17,9 +17,9 @@ const MainPageAbout = () => {
       >
         {t("layout.about")}
       </motion.div>
-      <div className="grid gap-6 mt-6 ">
+      <div className="grid gap-4 md:gap-6 mt-6 ">
         <StackBlock />
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 ">
           <FavoriteSong />
           <ConnectBlock />
           <FavoriteBook />

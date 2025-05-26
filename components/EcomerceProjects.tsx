@@ -8,7 +8,7 @@ import { ECOMMERCE_PROJECTS, ECOMMERCE_SKILLS } from "@/config/projects";
 const EcommerceMain = () => {
   const t = useTranslations("Ecommerce");
   return (
-    <div className="min-h-screen text-foreground p-6 mt-20">
+    <div className="min-h-screen text-foreground p-2 md:p-6 mt-20">
       <div className="max-w-8xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-sans text-start font-bold text-foreground mb-4">
@@ -34,7 +34,7 @@ const EcommerceMain = () => {
             ))}
           </div>
         </div>
-        <div className="text-center border border-border rounded-xl p-8 shadow-feature-card">
+        <div className="text-center border border-border rounded-xl p-4 md:p-8 shadow-feature-card">
           <h2 className="text-2xl font-sans font-bold text-foreground mb-4">
             {t("proven_impact")}
           </h2>
