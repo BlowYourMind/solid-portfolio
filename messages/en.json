@@ -89,5 +89,56 @@
     "skill_development_practices": "Development Practices",
     "skill_integration_apis": "Integration & APIs",
     "skill_tools_workflow": "Tools & Workflow"
+  },
+  "Igaming": {
+    "projects_title": "iGaming Projects",
+    "tehnical_expertise": "Technical Expertise",
+
+    "pledoo_role": "Frontend Developer",
+    "pledoo_company": "JER-TEAM",
+    "pledoo_period": "2023",
+    "pledoo_status": "Completed & live",
+    "pledoo_desc": "Join the team half way through. Participated as a frontend developer creating multiple difficulty features and user interfaces",
+    "achievement_pledoo_1": "Developed complex gaming UI components with Angular",
+    "achievement_pledoo_2": "Implemented responsive design for multiple device compatibility",
+    "achievement_pledoo_3": "Actively participated in bug fixing and new features integration",
+
+    "royspins_role": "Frontend Developer",
+    "royspins_company": "JER-TEAM",
+    "royspins_period": "2024",
+    "royspins_status": "Completed & live",
+    "royspins_desc": "Created from scratch using Angular v14. Frontend development with focus on dynamic form generation and real-time features integration.",
+    "achievement_royspins_1": "Integrated innovative dynamic form generation mechanism",
+    "achievement_royspins_2": "Implemented random UI element generation on page reload",
+    "achievement_royspins_3": "Successfully integrated Socket.IO for real-time communication",
+    "achievement_royspins_4": "Optimized performance and created custom complex components",
+    "achievement_royspins_5": "Integrated secure payment systems and gateways",
+
+    "wazbee_role": "Frontend Developer",
+    "wazbee_company": "JER-TEAM",
+    "wazbee_period": "2024",
+    "wazbee_status": "Completed & live",
+    "wazbee_desc": "Built from scratch with Angular v16 framework. Delivered comprehensive frontend development including dynamic form generation and payment integration.",
+    "achievement_wazbee_1": "Developed dynamic form generation system",
+    "achievement_wazbee_2": "Implemented Socket.IO for real-time gaming features",
+    "achievement_wazbee_3": "Created custom complex Angular components",
+    "achievement_wazbee_4": "Optimized application performance and user experience",
+    "achievement_wazbee_5": "Integrated multiple payment gateway solutions",
+
+    "welle_role": "Frontend Developer",
+    "welle_company": "JER-TEAM",
+    "welle_period": "2024",
+    "welle_status": "Completed & live",
+    "welle_desc": "Developed from scratch using Angular v17. Advanced casino platform with sophisticated multi-step registration and deposit-first gaming experience.",
+    "achievement_welle_1": "Implemented multi-step form generation and validation",
+    "achievement_welle_2": "Created deposit-first registration system",
+    "achievement_welle_3": "Developed multi-step registration with play-after-deposit flow",
+    "achievement_welle_4": "Integrated complex payment processing workflows",
+    "achievement_welle_5": "Built responsive and interactive gaming interface",
+
+    "skill_angular_technologies": "Angular Technologies",
+    "skill_dynamic_ui": "Dynamic UI & Forms",
+    "skill_cms_integration": "CMS & Integration",
+    "key_achivements": "Key Achievements"
   }
 }

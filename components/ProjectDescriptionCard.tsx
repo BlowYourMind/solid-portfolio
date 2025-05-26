@@ -1,10 +1,14 @@
-import { EcommerceProject } from "@/interfaces/projects";
+import { Project } from "@/interfaces/projects";
 import { ExternalLink, Zap } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-const ProductDescriptionCard = ({ project }: { project: EcommerceProject }) => {
-  const t = useTranslations("Ecommerce");
-
+const ProductDescriptionCard = ({
+  project,
+  t,
+}: {
+  project: Project;
+  t: any;
+}) => {
   return (
     <div className="card group">
       <div className="card__content">

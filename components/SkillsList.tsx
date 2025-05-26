@@ -1,8 +1,6 @@
-import { EcommerceSkill } from "@/interfaces/projects";
-import { useTranslations } from "next-intl";
+import { Skill } from "@/interfaces/projects";
 
-const SkillsList = ({ skill }: { skill: EcommerceSkill }) => {
-  const t = useTranslations("Ecommerce");
+const SkillsList = ({ skill, t }: { skill: Skill; t: any }) => {
   return (
     <div className="card group">
       <div className="card__content">

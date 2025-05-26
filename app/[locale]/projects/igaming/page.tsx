@@ -1,23 +1,22 @@
-import React from "react";
+import ProjectDescriptionCard from "@/components/ProjectDescriptionCard";
+import SkillsList from "@/components/SkillsList";
+import { IGAMING_PROJECTS, IGAMING_SKILLS } from "@/config/projects";
 import { Code } from "lucide-react";
 import { useTranslations } from "next-intl";
-import ProjectDescriptionCard from "./ProjectDescriptionCard";
-import SkillsList from "./SkillsList";
-import { ECOMMERCE_PROJECTS, ECOMMERCE_SKILLS } from "@/config/projects";
 
-const EcommerceMain = () => {
-  const t = useTranslations("Ecommerce");
+const IgamingPage = () => {
+  const t = useTranslations("Igaming");
   return (
     <div className="min-h-screen text-foreground p-6 mt-20">
       <div className="max-w-8xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-sans text-start font-bold text-foreground mb-4">
-            {t("ecommerce_projects_title")}
+            {t("projects_title")}
           </h1>
         </div>
         <div className="mb-16">
           <div className="grid md:grid-cols-1 gap-8">
-            {ECOMMERCE_PROJECTS.map((project, index) => (
+            {IGAMING_PROJECTS.map((project, index) => (
               <ProjectDescriptionCard t={t} key={index} project={project} />
             ))}
           </div>
@@ -29,22 +28,13 @@ const EcommerceMain = () => {
             {t("tehnical_expertise")}
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {ECOMMERCE_SKILLS.map((skill, index) => (
+            {IGAMING_SKILLS.map((skill, index) => (
               <SkillsList t={t} skill={skill} key={index} />
             ))}
           </div>
-        </div>
-        <div className="text-center border border-border rounded-xl p-8 shadow-feature-card">
-          <h2 className="text-2xl font-sans font-bold text-foreground mb-4">
-            {t("proven_impact")}
-          </h2>
-          <p className="text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            {t("proven_impact_desc")}
-          </p>
         </div>
       </div>
     </div>
   );
 };
-
-export default EcommerceMain;
+export default IgamingPage;

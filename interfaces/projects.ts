@@ -1,4 +1,4 @@
-export interface EcommerceProject {
+export interface Project {
   name: string;
   role: string;
   company: string;
@@ -11,12 +11,12 @@ export interface EcommerceProject {
   impact: string;
 }
 
-export type EcommerceProjects = Array<EcommerceProject>;
+export type Projects = Array<Project>;
 
-export interface EcommerceSkill {
+export interface Skill {
   category: string;
   items: string[];
   icon: React.ReactNode;
 }
 
-export type EcommerceSkills = Array<EcommerceSkill>;
+export type Skills = Array<Skill>;

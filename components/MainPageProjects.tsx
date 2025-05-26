@@ -15,7 +15,7 @@ const MainPageProjects = () => {
     },
     {
       name: "i_gambling",
-      link: "/projects/ecommerce",
+      link: "/projects/igaming",
     },
     {
       name: "backend_related",
