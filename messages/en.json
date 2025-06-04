@@ -140,5 +140,17 @@
     "skill_dynamic_ui": "Dynamic UI & Forms",
     "skill_cms_integration": "CMS & Integration",
     "key_achivements": "Key Achievements"
+  },
+  "ContactPage": {
+    "hero_title": "Get In Touch",
+    "hero_subtext": "I'd love to hear from you. Send me a message and I'll respond as soon as possible.",
+    "name_placeholder": " Your Name",
+    "email_placeholder": " Your Email",
+    "message_placeholder": " Your Message",
+    "sending": "Sending...",
+    "send_message": "Send Message",
+    "message_success": "Message sent successfully! I'll get back to you soon.",
+    "message_fail": "Failed to send message. Please try again or contact me directly.",
+    "you_can_reach":"You can also reach out to me through other channels"
   }
 }
