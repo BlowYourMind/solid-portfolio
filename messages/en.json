@@ -151,6 +151,6 @@
     "send_message": "Send Message",
     "message_success": "Message sent successfully! I'll get back to you soon.",
     "message_fail": "Failed to send message. Please try again or contact me directly.",
-    "you_can_reach":"You can also reach out to me through other channels"
+    "you_can_reach": "You can also reach out to me through other channels"
   }
 }
