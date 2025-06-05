@@ -10,7 +10,14 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
     title: "Maksims Nikitins – Frontend Developer",
     description:
       "Frontend developer specializing in eCommerce and iGaming projects. Freelance available.",
-    keywords: ["Maksims Nikitins", "frontend developer", "freelance", "ecommerce", "igaming", "portfolio"],
+    keywords: [
+      "Maksims Nikitins",
+      "frontend developer",
+      "freelance",
+      "ecommerce",
+      "igaming",
+      "portfolio",
+    ],
     openGraph: {
       title: "Maksims Nikitins – Frontend Developer",
       description:
@@ -39,7 +46,14 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
     title: "Максимс Никитинс – Фронтенд Разработчик",
     description:
       "Фронтенд разработчик с опытом в eCommerce и iGaming проектах. Доступен для фриланса.",
-    keywords: ["Максимс Никитинс", "фронтенд разработчик", "фриланс", "портфолио", "ecommerce", "igaming"],
+    keywords: [
+      "Максимс Никитинс",
+      "фронтенд разработчик",
+      "фриланс",
+      "портфолио",
+      "ecommerce",
+      "igaming",
+    ],
     openGraph: {
       title: "Максимс Никитинс – Фронтенд Разработчик",
       description:
@@ -59,8 +73,7 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
     twitter: {
       card: "summary_large_image",
       title: "Максимс Никитинс – Фронтенд Разработчик",
-      description:
-        "Доступен для фриланс-проектов. Опыт в eCommerce и iGaming.",
+      description: "Доступен для фриланс-проектов. Опыт в eCommerce и iGaming.",
       images: ["https://yoursite.com/images/twitter-image-ru.jpg"],
     },
   },
@@ -68,7 +81,14 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
     title: "Maksims Nikitins – Frontend Izstrādātājs",
     description:
       "Frontend izstrādātājs ar pieredzi e-komercijā un iGaming projektos. Pieejams freelance darbiem.",
-    keywords: ["Maksims Nikitins", "frontend izstrādātājs", "freelance", "e-komercija", "igaming", "portfelis"],
+    keywords: [
+      "Maksims Nikitins",
+      "frontend izstrādātājs",
+      "freelance",
+      "e-komercija",
+      "igaming",
+      "portfelis",
+    ],
     openGraph: {
       title: "Maksims Nikitins – Frontend Izstrādātājs",
       description:
@@ -98,11 +118,17 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
 export async function generateMetadata({
   params,
 }: {
-  params: Params;
+  params: Promise<Params>;
 }): Promise<Metadata> {
-  return metaByLocale[params.locale] || metaByLocale.en;
+  const resolvedParams = await params;
+  return metaByLocale[resolvedParams.locale] || metaByLocale.en;
 }
 
-export default function HomePage() {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<Params>;
+}) {
+  const resolvedParams = await params;
   return <HomeClient />;
 }
