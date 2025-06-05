@@ -16,9 +16,9 @@ const AboutRoadMap = () => {
       transition={{
         duration: 0.3,
       }}
-      className="shadow-feature-card flex rounded-xl flex-col md:flex-row gap-6 p-4 lg:p-6"
+      className="shadow-feature-card flex rounded-xl  flex-col md:flex-row gap-6 p-4 lg:p-6"
     >
-      <div className="flex-col flex gap-6 ">
+      <div className="flex-col flex gap-6">
         <div className="flex items-center gap-2">
           <h2 className="text-2xl font-bold text-foreground">
             {t("life_path")}

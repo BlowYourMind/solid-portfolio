@@ -5,7 +5,7 @@ const SkillsList = ({ skill, t }: { skill: Skill; t: any }) => {
     <div className="card group">
       <div className="card__content">
         <div className="card__front">
-          <div className="bg-card border border-border rounded-xl p-3 md:p-6 shadow-feature-card transition-all duration-300">
+          <div className="border border-border rounded-xl p-3 md:p-6 shadow-feature-card transition-all duration-300">
             <div className="flex items-center mb-4">
               <div className="text-primary mr-3">{skill.icon}</div>
               <h3 className="text-lg font-semibold text-card-foreground">
