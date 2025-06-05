@@ -42,9 +42,14 @@ import {
   SiTypescript,
 } from "@icons-pack/react-simple-icons";
 import {
+  CodeIcon,
+  Contact,
   FlameIcon,
+  InfoIcon,
   MessageCircleIcon,
   MonitorIcon,
+  PanelsTopLeftIcon,
+  PersonStanding,
   UserCircleIcon,
 } from "lucide-react";
 import { Linkedin } from "lucide-react";
@@ -57,22 +62,17 @@ import favBookLogo3 from "@/public/fahrenheit-451.webp";
 
 export const HEADER_LINKS: HeaderLinks = [
   {
-    icon: <UserCircleIcon className="size-3.5" />,
+    icon: <PersonStanding className="size-3.5" />,
     href: "/about",
     key: "about",
   },
   {
-    icon: <FlameIcon className="size-3.5" />,
+    icon: <CodeIcon className="size-3.5" />,
     href: "/projects",
     key: "projects",
   },
-  // {
-  //   icon: <MessageCircleIcon className="size-3.5" />,
-  //   href: "/reviews",
-  //   key: "reviews",
-  // },
   {
-    icon: <MonitorIcon className="size-3.5" />,
+    icon: <Contact className="size-3.5" />,
     href: "/contact",
     key: "contact",
   },

@@ -10,6 +10,7 @@ import ThemeToggle from "./ToggleButton";
 import Navbar from "./Navbar";
 import LanguageSwitcher from "./LanguageSwitcher";
 import AnimationsToggle from "./AnimationsToggle";
+import MobileNav from "./MobileNav";
 
 export default function Header() {
   const t = useTranslations("HomePage");
@@ -59,6 +60,7 @@ export default function Header() {
         <AnimationsToggle />
         <ThemeToggle />
         <LanguageSwitcher />
+        <MobileNav />
       </div>
     </motion.header>
   );
