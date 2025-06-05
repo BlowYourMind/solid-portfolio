@@ -18,6 +18,19 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
       "igaming",
       "portfolio",
     ],
+    icons: {
+      icon: [
+        {
+          url: "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/favicon.ico",
+        },
+        {
+          url: "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/web-app-manifest-192x192.png",
+          type: "image/png",
+        },
+      ],
+      apple:
+        "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/apple-touch-icon.png",
+    },
     openGraph: {
       title: "Maksims Nikitins – Frontend Developer",
       description:
@@ -26,9 +39,9 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
       siteName: "Maksims Nikitins Portfolio",
       images: [
         {
-          url: "https://yoursite.com/images/og-image-en.jpg",
-          width: 1200,
-          height: 630,
+          url: "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/web-app-manifest-512x512.png",
+          width: 512,
+          height: 512,
         },
       ],
       locale: "en_US",
@@ -39,7 +52,9 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
       title: "Maksims Nikitins – Frontend Developer",
       description:
         "Skilled in eCommerce and iGaming projects. Available for freelance work.",
-      images: ["https://yoursite.com/images/twitter-image-en.jpg"],
+      images: [
+        "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/web-app-manifest-512x512.png",
+      ],
     },
   },
   ru: {
@@ -54,6 +69,19 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
       "ecommerce",
       "igaming",
     ],
+    icons: {
+      icon: [
+        {
+          url: "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/favicon.ico",
+        },
+        {
+          url: "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/web-app-manifest-192x192.png",
+          type: "image/png",
+        },
+      ],
+      apple:
+        "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/apple-touch-icon.png",
+    },
     openGraph: {
       title: "Максимс Никитинс – Фронтенд Разработчик",
       description:
@@ -62,9 +90,9 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
       siteName: "Портфолио Максимса Никитинса",
       images: [
         {
-          url: "https://yoursite.com/images/og-image-ru.jpg",
-          width: 1200,
-          height: 630,
+          url: "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/web-app-manifest-512x512.png",
+          width: 512,
+          height: 512,
         },
       ],
       locale: "ru_RU",
@@ -74,7 +102,9 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
       card: "summary_large_image",
       title: "Максимс Никитинс – Фронтенд Разработчик",
       description: "Доступен для фриланс-проектов. Опыт в eCommerce и iGaming.",
-      images: ["https://yoursite.com/images/twitter-image-ru.jpg"],
+      images: [
+        "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/web-app-manifest-512x512.png",
+      ],
     },
   },
   lv: {
@@ -89,6 +119,19 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
       "igaming",
       "portfelis",
     ],
+    icons: {
+      icon: [
+        {
+          url: "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/favicon.ico",
+        },
+        {
+          url: "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/web-app-manifest-192x192.png",
+          type: "image/png",
+        },
+      ],
+      apple:
+        "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/apple-touch-icon.png",
+    },
     openGraph: {
       title: "Maksims Nikitins – Frontend Izstrādātājs",
       description:
@@ -97,9 +140,9 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
       siteName: "Maksima Nikitina portfelis",
       images: [
         {
-          url: "https://yoursite.com/images/og-image-lv.jpg",
-          width: 1200,
-          height: 630,
+          url: "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/web-app-manifest-512x512.png",
+          width: 512,
+          height: 512,
         },
       ],
       locale: "lv_LV",
@@ -110,7 +153,9 @@ const metaByLocale: Record<Params["locale"], Metadata> = {
       title: "Maksims Nikitins – Frontend Izstrādātājs",
       description:
         "Frontend izstrādātājs ar iGaming un e-komercijas pieredzi. Freelance darbiem pieejams.",
-      images: ["https://yoursite.com/images/twitter-image-lv.jpg"],
+      images: [
+        "https://bsvbucket.s3.eu-north-1.amazonaws.com/images/portfolio/web-app-manifest-512x512.png",
+      ],
     },
   },
 };

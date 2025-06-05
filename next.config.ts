@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     "@tailwindcss/postcss": {},
   },
   images: {
-    domains: ["i.scdn.co"],
+    domains: ["i.scdn.co", "bsvbucket.s3.eu-north-1.amazonaws.com"],
   },
 };
 
