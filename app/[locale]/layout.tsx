@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import { NextIntlClientProvider } from "next-intl";
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 
 type Params = {
   locale: "en" | "ru" | "lv";
@@ -202,6 +203,7 @@ export default async function RootLayout({
       <head />
       <body className="relative" suppressHydrationWarning>
         <Providers>
+          <Analytics />
           <NextIntlClientProvider>
             <Main>{children}</Main>
           </NextIntlClientProvider>
